@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Now</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Now</h1>
+    <div class="weather-info">
+      <p id="location">📍 Locating...</p>
+      <p id="temperature"></p>
+      <p id="condition"></p>
+      <p id="uv"></p>
+      <p id="advice"></p>
+    </div>
+
+    <div class="buttons">
+      <button id="toggle">Switch to °F</button>
+      <button id="showTime">Time</button>
+      <button id="showUV">UV Index</button>
+      <button id="showPM">Air Quality</button>
+    </div>
+
+    <div id="infoBox"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
